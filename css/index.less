@@ -1,0 +1,277 @@
+*{
+    margin: 0;padding: 0;
+    li{
+        list-style: none;
+    }
+ 
+}
+
+@font:(375/10rem);
+// 头部导航栏
+.header-top{
+    top: 0;
+    position: fixed;
+    width:(375/@font);
+    height:(45/@font);
+    background-image: url(https://game.gtimg.cn/images/yxzj/m/m201706/images/bg/index.png)
+    ;background-position: 0 (-357/@font);
+    background-repeat: no-repeat;
+    background-size: 10rem;
+    z-index: 99999999;
+ 
+    div{
+        width: (30/@font);
+        height: (30/@font);
+        margin-left: (10/@font);
+        margin-top:(10/@font); 
+        background-image: url(https://game.gtimg.cn/images/yxzj/m/m201706/images/bg/index.png);
+    }
+    .logo{
+        float: left;
+     
+        background-position: 0 (-308/@font);
+        background-size: 10rem;
+        background-repeat: no-repeat;
+        margin-left: (16/@font);
+        margin-top:(7/@font); 
+     
+    }
+    p{
+        float: left;
+        font-size: (13/@font);
+        color: #fff;
+        margin-left: (10/@font);
+        margin-top:(6/@font); 
+        span{
+            display: block;
+            color: #666;
+            font-size: (12/@font)!important;
+        }
+    }
+    .download{
+        width: (60/@font);
+        height: (24/@font);
+        float: right;
+        background-position: (-59/@font) (-310/@font);
+        background-size: 10rem;
+        margin-right: (15/@font);
+    }
+     
+}
+.leave{
+    margin-top:(10/@font); 
+    width: 100%;
+    height: (20/@font);
+    ;background-color: rgb(237, 237, 237);
+}
+// 导航栏
+.header{
+
+    width: (375/@font);
+    // margin: 0!important;padding: 0!important;
+    margin-top: (45/@font);
+    line-height: (42/@font);
+    font-size: (12/@font);
+    background-color: #db9e3f;
+    display: flex;
+    list-style: none;
+   li{
+       
+       flex-grow: 1;
+       text-align: center;
+       color: #fff;
+       span{
+           border-bottom: 3px solid #fff;
+           box-sizing: border-box;
+          padding-bottom:(5/@font); 
+       }
+   }
+}
+.swiper1{
+    height: (165/@font);
+    
+    .swiper-container{
+        width: 100%;
+        height: 100%;
+        // 分页器
+        .fyq{
+            left: (140/@font)!important;
+            
+            span{
+                border-radius: 0!important;
+            background-color: #fff;
+            opacity: 1;
+            }
+            .swiper-pagination-bullet-active{
+                background-color: blue;
+            }
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+.box2{
+    height:(210/@font) ;
+    .box1{
+        margin: (10/@font) auto;
+        margin-bottom: 0;
+         display: flex;
+         flex-wrap: wrap;
+        //  height:(390/@font) ;
+         // align-items: flex-start;
+         align-content: flex-start;
+         height: 33%;
+         overflow: hidden;
+         // box-sizing: border-box;
+         li{
+            
+             font-size: (12/@font);
+             width: (92.8/@font);
+             height: (70/@font);
+             border-right: 1px solid #ccc;
+             box-sizing: border-box;
+           
+            span{
+                width:100%;
+                text-align: center;
+                display: block;
+                
+            }
+             p{
+                
+                 width: 100%;
+                 height:(42/@font);
+                margin: 0;
+                 &:nth-child(1){
+                     background-position:(-190/@font) (-50/@font);
+                      background-image: url(https://game.gtimg.cn/images/yxzj/m/m201706/images/bg/index.png);
+                     background-repeat: no-repeat;
+                     background-size: 10rem;
+                 }
+               
+                 
+             }
+             
+     
+         }
+        
+         
+     }
+}
+
+.show{
+    height: (30/@font);
+    background-color: #f9f9f9;
+    font-size: (13/@font);
+    line-height: (30/@font);
+    text-align: center;
+}
+.demo{
+    width: (375/@font);
+    overflow: hidden;
+    .swiper-slide{
+        width: (375/@font);
+       img{
+        width: 100%;
+       }
+    }
+    .demo-header{
+       
+        height: (49.5/@font);
+        // border: 1px solid red;
+        overflow: hidden;
+        div{
+            float: left;
+        }
+        .tb{
+            width: 20px;
+            height: 20px;
+            background-color: red;
+        }
+        p{
+            margin-left: (10/@font);
+            float: left;
+            line-height: (49.5/@font); 
+        }
+        .zx-right{
+            float: right;
+            font-size: (20/@font);
+            line-height:(40/@font);
+            font-weight: bold;
+            color: rgb(121, 118, 118);
+            margin-right: (10/@font);
+        }
+        font-size: (17/@font)
+    }
+    .swiper-container2{
+        position: relative;
+        .fyq{
+            bottom: (10/@font);
+            left:(120/@font); 
+            span{
+                border-radius: 0!important;
+            background-color: #fff;
+            opacity: 1;
+            }
+            .swiper-pagination-bullet-active{
+                background-color: blue;
+            }
+        }
+        // swiper-pagination-bullet-active
+        .swiper-pagination-bullet-active{
+            background-color: blue;
+        }
+    }
+    // 自定义swiper
+    .demo-swiper{
+     .header{
+         margin: 0 ;
+         color: #222222;
+         background-color: #fff;
+        li{
+            color: #000;
+        }
+        span{
+            border-bottom: 4px solid orange;
+            color: orange;
+        }
+     }
+     .context{
+         width: (341.2/@font);
+         height: (171/@font);
+        //  border: 1px solid red;
+         margin: 0 auto;
+         li{
+             overflow: hidden;
+             height:  (26/@font);
+             font-size: (14/@font);
+             margin-top:  (10/@font);
+             div{
+                 float: left;
+                 width:  (30/@font);
+                 text-align: center;
+             }
+             .remen{
+                 border: 1px solid red;
+                 font-size: (12/@font);
+                 color: red;
+                 margin-right: (3/@font);
+                 border-radius:(2/@font);
+             }
+             .date{
+                 float: right;
+                 color: #666;
+                 width:  (35/@font);
+                 font-size:  (12/@font);
+             }
+             p{
+                 float: left;
+                 color: #222222;
+             }
+         }
+     }
+        
+    }
+}
